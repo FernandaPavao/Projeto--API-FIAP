@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 
-from app.schemas import PredictRequest, PredictResponse
-from app.services import predict_next_value
+from .schemas import PredictRequest, PredictResponse
+from .services import predict_next_value
 
 
 app = FastAPI(
@@ -33,3 +33,4 @@ def predict(request: PredictRequest):
             status_code=500,
             detail="Erro interno durante a predição"
         )
+
