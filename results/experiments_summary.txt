@@ -1,0 +1,12 @@
+Experiments ranking summary
+============================================================
+
+Total experiments: 4
+
+Top experiments (by MAE):
+------------------------------------------------------------
+Rank 1: model=LSTM | units1=128 | units2=64 | dropout=0.3 | batch=64 | lr=0.001 | mae=0.748707 | rmse=0.970093 | mape=1.3863%
+Rank 2: model=LSTM | units1=50 | units2=50 | dropout=0.2 | batch=32 | lr=0.001 | mae=0.835062 | rmse=1.083386 | mape=1.5399%
+Rank 3: model=LSTM | units1=128 | units2=64 | dropout=0.2 | batch=64 | lr=0.0005 | mae=0.860972 | rmse=1.191230 | mape=1.6386%
+
+Full ranking saved to experiment_ranking.csv

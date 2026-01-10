@@ -1,0 +1,23 @@
+# Dependências do Projeto - Tech Challenge Fase 4
+# Coleta e Pré-processamento de Dados
+
+# Coleta de dados financeiros
+yfinance
+
+# Manipulação de dados
+pandas
+numpy
+
+# Visualização
+matplotlib
+seaborn
+
+# Machine Learning e Pré-processamento
+scikit-learn
+tensorflow
+
+# Análise técnica (indicadores)
+ta
+
+# Utilitários
+python-dateutil

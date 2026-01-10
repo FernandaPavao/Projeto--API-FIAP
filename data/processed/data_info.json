@@ -1,0 +1,83 @@
+{
+    "dataset_info": {
+        "total_records": 1196,
+        "date_range": {
+            "start": "2021-01-04",
+            "end": "2025-10-16"
+        },
+        "features": [
+            "Close",
+            "High",
+            "Low",
+            "Open",
+            "Volume",
+            "SMA_7",
+            "SMA_21",
+            "SMA_50",
+            "EMA_12",
+            "EMA_26",
+            "RSI",
+            "MACD",
+            "MACD_Signal",
+            "MACD_Hist",
+            "BB_Upper",
+            "BB_Lower",
+            "BB_Middle",
+            "Volatility",
+            "Daily_Return"
+        ],
+        "n_features": 19,
+        "target": "Close"
+    },
+    "preprocessing": {
+        "lookback_days": 60,
+        "forecast_horizon": 1,
+        "normalization": {
+            "method": "MinMaxScaler",
+            "feature_range": [
+                0,
+                1
+            ]
+        }
+    },
+    "data_split": {
+        "train": {
+            "samples": 795,
+            "percentage": 70.0
+        },
+        "validation": {
+            "samples": 227,
+            "percentage": 20.0
+        },
+        "test": {
+            "samples": 114,
+            "percentage": 10.0
+        }
+    },
+    "shapes": {
+        "X_train": [
+            795,
+            60,
+            19
+        ],
+        "y_train": [
+            795
+        ],
+        "X_val": [
+            227,
+            60,
+            19
+        ],
+        "y_val": [
+            227
+        ],
+        "X_test": [
+            114,
+            60,
+            19
+        ],
+        "y_test": [
+            114
+        ]
+    }
+}
