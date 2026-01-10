@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 from tensorflow.keras.models import load_model
 
-from app.config import MODEL_PATH, SCALER_PATH, N_TIMESTEPS, N_FEATURES
+from .config import MODEL_PATH, SCALER_PATH, N_TIMESTEPS, N_FEATURES
 
 
 # =========================
@@ -51,3 +51,4 @@ def predict_next_value(data: list) -> float:
     prediction = scaler.inverse_transform(dummy)[0, 0]
 
     return float(prediction)
+
