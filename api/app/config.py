@@ -1,12 +1,7 @@
-from pathlib import Path
+# Caminhos dos artefatos (a partir da raiz do projeto)
+MODEL_PATH = "models/model.keras"
+SCALER_PATH = "models/scaler.pkl"
 
-# Pasta API (um nível acima de Aplicativo)
-BASE_DIR = Path(__file__).resolve().parent.parent
-
-# Caminhos dos artefatos de modelo (ajuste os nomes se forem diferentes)
-MODEL_PATH = BASE_DIR / "Modelo" / "model.keras"
-SCALER_PATH = BASE_DIR / "Modelo" / "scaler.pkl"
-
-# Parâmetros do modelo
+# Parâmetros do modelo (definidos no treino)
 N_TIMESTEPS = 60
 N_FEATURES = 19
