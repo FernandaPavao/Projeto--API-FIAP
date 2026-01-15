@@ -47,6 +47,25 @@ O trabalho envolve:
   - Indicadores Técnicos: SMA, EMA, RSI, MACD, Bollinger Bands, Volatilidade
 - **Janela Temporal:** 60 dias (lookback)
 - **Divisão:** 70% treino / 15% validação / 15% teste
+  ----
+## API em Produção
+
+- URL base: https://projeto-api-fiap-xqxb.onrender.com
+- Documentação (Swagger): https://projeto-api-fiap-xqxb.onrender.com/docs
+
+### Endpoint de previsão
+
+**POST** `/predict`
+
+**Request (JSON)**
+
+```json
+{
+  "data": [
+    [ ... 19 números ... ],
+    ...
+  ]
+}
 
 ---
 
@@ -559,5 +578,6 @@ Verifique sua conexão com a internet. O yfinance precisa acessar o Yahoo Financ
 Este projeto foi desenvolvido para fins acadêmicos como parte do Tech Challenge da Fase 4.
 
 ---
+
 
 **Última atualização:** Dezembro 2025
