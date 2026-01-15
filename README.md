@@ -52,7 +52,7 @@ O trabalho envolve:
 
 - URL base: https://projeto-api-fiap-xqxb.onrender.com
 - Documentação (Swagger): https://projeto-api-fiap-xqxb.onrender.com/docs
-
+- Endpoint: POST https://projeto-api-fiap-xqxb.onrender.com/predict
 ### Endpoint de previsão
 
 **POST** `/predict`
@@ -581,3 +581,4 @@ Este projeto foi desenvolvido para fins acadêmicos como parte do Tech Challenge
 
 
 **Última atualização:** Dezembro 2025
+
